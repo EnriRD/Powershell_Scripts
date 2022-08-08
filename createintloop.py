@@ -4,7 +4,7 @@ requests.packages.urllib3.disable_warnings()
 # Credentials
 USER = 'developer'
 PASS = 'C1sco12345'
-url = 'https://ios-xe-mgmt.cisco.com:9443/restconf/data/ietf-interfaces:interfaces'
+url = 'https://ios-xe-mgmt.cisco.com/restconf/data/ietf-interfaces:interfaces'
 
 headers = {
 'Accept': 'application/yang-data+json',
